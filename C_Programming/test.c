@@ -2,16 +2,14 @@
 
 int main()
 {
-	int a,b;
-	printf("Enter value of a\n");
-	scanf("%d", &a);
+	int a;
+	float b;
+	a = 50; 
+	b = 8;
 
-
-	printf("Enter value of b\n");
-	scanf("%d", &b);
-
-	printf("The sum is %d\n", a+b);
-
+	printf("The value of a * b : %f\n", a*b);
+	printf("The value of a / b : %f\n", a/b);
+	printf("The value of a + b : %f\n", a+b);
 
 	return 0;
 }
