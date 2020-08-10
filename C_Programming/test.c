@@ -5,7 +5,7 @@ int main()
 	int a;
 	int c;
 	float b;
-	a = 50; 
+	a = 60; 
 	b = 8;
 	c = 10;
 
