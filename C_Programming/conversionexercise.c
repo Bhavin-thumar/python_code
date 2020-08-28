@@ -6,7 +6,7 @@ int main(){
 	float yardtofoot = 3;
 	float kgtopound = 2.205;
 	float litretogallon = 0.264;
-	char input;
+	char input, reply;
 	float first;
 
 	while (1){
@@ -25,6 +25,12 @@ int main(){
 				printf("Enter the first quantity:\n");
 				scanf("%f", &first);
 				printf("%f inches is equal to %f meter\n", first, first*inchestometer);
+				printf("press y to continue else quit :\n");
+				scanf("%c", &reply);
+				printf("%c", reply);
+				// if (*reply != 'y'){
+				// 	goto below_return;
+				// }
 				break;
 
 
@@ -32,19 +38,38 @@ int main(){
 				printf("Enter the first quantity:\n");
 				scanf("%f", &first);
 				printf("%f yard is equal to %f feet\n", first, first*yardtofoot);
+				printf("press y to continue else quit :");
+				scanf("%c", &reply);
+				// if (*reply != 'y'){
+				// 	goto below_return;
+				// }
 				break;			
 
 			case '3':
 				printf("Enter the first quantity:\n");
 				scanf("%f", &first);
 				printf("%f kg is equal to %f Pound\n", first, first*kgtopound);
+				printf("press y to continue else quit :");
+				scanf("%c", &reply);
+				// if (*reply != 'y'){
+				// 	goto below_return;
+				// }
 				break;
 
 			case '4':
 				printf("Enter the first quantity:\n");
 				scanf("%f", &first);
 				printf("%f litre is equal to %f Gallon\n", first, first*litretogallon);
+				printf("press y to continue else quit :");
+				scanf("%c", &reply);
+				// if (*reply != 'y'){
+				// 	goto below_return;
+				// }
 				break;
+
+			// default:
+			// 	printf("Entered wrong option, please enter correct option:\n");
+			// 	break;
 
 		}
 
