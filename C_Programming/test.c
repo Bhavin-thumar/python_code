@@ -22,11 +22,7 @@
 
 int main(){
 
-	char reply;
-	printf("press y to continue else quit:\n");
-	scanf("%c", &reply);
-	printf("The size of int is %ld\n",sizeof(int));
-	printf("The value of reply is %c", reply);
-
+	int a = 3, b = 4;
+	printf("%d\n", a++ + ++b);
 	return 0;
 }
