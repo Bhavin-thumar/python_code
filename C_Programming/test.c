@@ -23,6 +23,6 @@
 int main(){
 
 	int a = 3, b = 4;
-	printf("%d\n", a++ + ++b);
+	printf("%d\n", a++ + f++b);
 	return 0;
 }
